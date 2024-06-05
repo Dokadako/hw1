@@ -6,10 +6,6 @@ This is a simple blog project built with React and Tailwind CSS. The project inc
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
