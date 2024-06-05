@@ -21,4 +21,23 @@ To get started with this project, follow these steps:
    git clone https://github.com/your-username/my-blog-project.git
    cd my-blog-project```
 2. Install dependencies:
-   npm install
+   ```sh
+   npm install ```
+3. Set up Tailwind CSS:
+
+Ensure tailwindcss and postcss are installed and configured. You should have tailwind.config.js and postcss.config.js in the root directory. If not, create them with the following content:
+
+tailwind.config.js: ```sh`
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+
